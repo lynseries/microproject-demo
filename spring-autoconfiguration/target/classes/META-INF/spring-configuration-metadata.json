@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.lyn.practice.autoconfig.MappingProperties",
+      "name": "select.order",
+      "type": "com.lyn.practice.autoconfig.MappingProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.lyn.practice.autoconfig.MappingProperties",
+      "name": "select.order.sql",
+      "type": "java.lang.String"
+    }
+  ]
+}

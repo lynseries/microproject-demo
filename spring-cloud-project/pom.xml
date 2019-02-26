@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>microproject</artifactId>
+        <groupId>com.lyn.practice</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-cloud-project</artifactId>
+    <packaging>pom</packaging>
+
+    <name>spring-cloud-project</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.example.com</url>
+    <modules>
+        <module>spring-cloud-native-application</module>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-service-discovery-client</module>
+        <module>spring-cloud-client-application</module>
+        <module>spring-cloud-server-application</module>
+        <module>spring-cloud-gateway</module>
+        <module>spring-cloud-stream</module>
+        <module>spring-cloud-stream-consumer</module>
+        <module>spring-cloud-event-bus</module>
+        <module>spring-cloud-api</module>
+        <module>spring-cloud-stream-binder-http</module>
+    </modules>
+
+    <properties>
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
