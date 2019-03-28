@@ -27,6 +27,7 @@
         <module>spring-cloud-event-bus</module>
         <module>spring-cloud-api</module>
         <module>spring-cloud-stream-binder-http</module>
+        <module>spring-cloud-feign</module>
     </modules>
 
     <properties>
